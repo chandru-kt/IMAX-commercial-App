@@ -1,0 +1,110 @@
+.container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.container__movieDetail>h1 {
+  color: rgb(251, 251, 251);
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.container__movieDetail_rating {
+  display: flex;
+  align-items: center;
+  color: rgb(250, 247, 247);
+}
+
+.container__movieDetail_rating>h1 {
+  margin: 20px;
+  color: white;
+}
+
+.container__card {
+  width: 250px;
+  margin: 30px;
+  padding-left: 50px;
+}
+
+.container__card>img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.container__movieDetail_ratingButton {
+  color: rgb(250, 250, 252);
+  display: flex;
+  background: #1e025b;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container__movieDetail_ratingButton>div>button {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(192, 177, 245);
+  color: #333333;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+.container__movieDetail_ratingButton>div {
+  margin: 20px;
+}
+
+.container__movieDetail_ratingButton>div>h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.container__movieDetail_ratingButton>div>p {
+  padding: 0;
+  margin: 0;
+}
+
+.container__movieDetail_language {
+  display: flex;
+  align-items: center;
+}
+
+.container__movieDetail_language>div {
+  background-color: rgb(245, 237, 237);
+  color: #333333;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.container__movieDetail_language>div>p {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.BookButton>button {
+  background-color: #12044b;
+  color: aliceblue;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.middleContainer {
+  width: 70%;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.carousel_image {
+  width: 100px;
+  border-radius: 50%;
+}
